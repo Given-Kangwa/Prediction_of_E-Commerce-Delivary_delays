@@ -75,32 +75,3 @@ The following findings were observed:
 
 **Descriptive statistics:** Product prices, freight charges and payment amounts showed evidence of right-skewed distributions and potentially extreme values requiring further investigation.
 
-## 3. Current Challenges and Considerations
-
-The target variable is imbalanced, meaning that accuracy alone may not adequately measure model performance.
-
-Potential outliers have also been identified in financial and delivery-window variables.
-
-Additionally, predictor selection must prevent data leakage. Only information genuinely available at the defined prediction point should be used as model input.
-
-## 4. Next Steps
-
-The remaining work will focus on:
-
-1. Completing exploratory analysis of customer locations, order values and purchase timing.
-2. Investigating outliers, skewness and relationships between variables.
-3. Conducting confounding-variable analysis.
-4. Applying an appropriate mixed-attribute similarity measure, such as Gower distance, with a worked example.
-5. Completing preprocessing, including missing-value treatment, outlier handling and normalization where appropriate.
-6. Establishing a baseline and training a Decision Tree classifier.
-7. Evaluating the model using a confusion matrix, precision, recall, F1-score and accuracy.
-8. Discussing practical implications, ethical considerations and scalability.
-
-## 5. Current Status
-
-The dataset has been successfully acquired, inspected, cleaned, integrated and validated. Initial exploratory analysis has also been completed, revealing class imbalance and potential relationships between purchase timing, freight charges and delivery delays.
-
-The project is currently progressing through the exploratory data analysis stage, with preprocessing and model development remaining.
-
-**Conclusion:** The foundational data preparation work has been completed successfully. The next priority is to deepen the exploratory analysis and establish a reliable feature set before training the Decision Tree model.
-:::
